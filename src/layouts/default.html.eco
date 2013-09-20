@@ -43,15 +43,19 @@
 </head>
 <body>
 
+<!-- github ribbon start -->
+<a href="https://github.com/MassDistributionMedia/ANP"><img class="github-ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+<!-- github ribbon end -->
+
 <!-- Markup -->
 <div class="content pure-g-r">
 	<div class="header pure-u-1">
 		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
-			<a class="pure-menu-heading" href="/">Your Site</a>
+			<a class="pure-menu-heading" href="/"><img class="logo" src="https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/activeneotokyoplayers-profile_image-0bbe5f9f58edd472-300x300.png" alt="tgr fuel tiger logo"/><h1 class="logo-text">Active Neotokyo Players</h1></a>
 
 			<ul>
 				<li class="pure-menu-selected"><a href="/">Home</a></li>
-				<li><a href="#">Tour</a></li>
+				<li><a href="http://steamcommunity.com/groups/ANPA">Join</a></li>
 				<% for document in @getCollection('pages').toJSON(): %>
 					<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
 						<a href="<%= document.url %>" property="dc:title"><%= document.title %></a>
@@ -64,9 +68,9 @@
 	<%- @content %>
 
 	<div class="footer pure-u-1">
-		View the source of this layout to learn more. Made with love by the YUI Team. 
-		&copy; Company <%- (new Date()).getFullYear() %>.
-		This website was last updated at <%= @site.date.toISOString() %>
+		 
+		&copy; ANP <%- (new Date()).getFullYear() %> - 
+		last updated at <%= @site.date.toISOString() %>
 	</div>
 </div>
 

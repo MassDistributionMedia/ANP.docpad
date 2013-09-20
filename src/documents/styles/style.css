@@ -1,18 +1,39 @@
 body {
+    color:#fff;
     margin: 0 auto;
     line-height: 1.7em;
+    background: #000 url(https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/nt_logo.gif) no-repeat 777px 366px;
+}
+
+.logo{
+    width: 77px;
+    clear: none;
+    float: left;
+}
+
+.logo-text{
+    clear: none;
+    float: left;
+    color: #fff;
+    padding: 10px 0 0 13px;
 }
 
 .l-box {
-    padding: 1em;
+    padding: 3em 1em 0;
 }
+    .l-box iframe{
+        margin-top: 7px;
+    }
 
 .header {
     margin: 0 0;
 }
 
     .header .pure-menu {
+        color: #fff;
         padding: 0.5em;
+        background: #000;
+        border: 0 !important;
     }
 
         .header .pure-menu li a:hover,
@@ -30,39 +51,76 @@ body .primary-button {
 .splash {
     margin: 2em auto 0;
     padding: 3em 0.5em;
-    background: #eee;
+    background: rgba(10, 5, 0, 0.25);
 }
     .splash .splash-head {
-        font-size: 300%;
         margin: 0em 0;
+        color: #BDBDBD;
         line-height: 1.2em;
     }
     .splash .splash-subhead {
         color: #999;
         font-weight: 300;
         line-height: 1.4em;
+        width: 636px;
+        padding: 2px;
     }
     .splash .primary-button {
         font-size: 150%;
     }
+    .splash .splash-text{
+        width: 673px;
+    }
+    .splash-img-bg{
+        opacity: 0.7;
+        z-index: -11;
+        position: absolute;
+    }   
+    .splash-join{
+        width: 66px;
+        margin: 0 133px 0 13px;
+        height: 94px;
+    }
+    .splash-join-text{
+        float: left;
+        bottom: 0;
+        margin: -23px 0;
+    }
 
-
-.content .content-subhead {
-    color: #999;
-    padding-bottom: 0.3em;
-    text-transform: uppercase;
-    margin: 0;
-    border-bottom: 2px solid #eee;
-    display: inline-block;
+.page{
+    margin: 145px 29px 0;
 }
 
-.content .content-ribbon {
-    margin: 3em;
-    border-bottom: 1px solid #eee;
+.github-ribbon{
+    top: 0; 
+    right: 0; 
+    border: 0;
+    z-index:11;
+    position: absolute;
 }
 
+.content{
+    width: 1097px;
+    margin: auto;
+}
+    .content .content-subhead {
+        color: #999;
+        padding-bottom: 0.3em;
+        text-transform: uppercase;
+        margin: 0;
+        border-bottom: 2px solid #eee;
+        display: inline-block;
+    }
+
+    .content .content-ribbon {
+        margin: 3em;
+        border-bottom: 1px solid #eee;
+    }
+.muted{
+    color:grey;
+    opacity: 0.6;
+}
 .ribbon {
-    background: #eee;
     text-align: center;
     padding: 2em;
     color: #999;
@@ -70,6 +128,13 @@ body .primary-button {
     .ribbon h2 {
         display: inline;
         font-weight: normal;
+    }
+
+.pure-button-orange {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+    .pure-button-orange:hover{
+        color: #fff;
     }
 
 .footer {
