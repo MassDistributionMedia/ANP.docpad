@@ -102,8 +102,8 @@ title: 'Home'
                 </g>
                 </svg>
                 </a>
-                </div>
                 <sub class="muted">Become a sponsor.</a>
+                </div>
             </div>
 
             <div class="pure-u-2-3">
@@ -199,11 +199,20 @@ title: 'Home'
 
     <div class="pure-g-r">
         <div class="pure-u-1">
-            <div class="l-box ribbon">
+            <div class="l-box ribbon download-nt">
+                <div class="get-started">
                 <h2>Get started now.</h2> <br/>
-                <a href="http://www.neotokyohq.com/download.html" class="pure-button"><%- @getIconmonstrTipsyBlock('save7','','save-icon','data-placement="right" data-content="Some more content here. This is my second tooltip."') %>
-
-Download NT&deg;</a>
+                <a href="http://www.neotokyohq.com/download.html" class="pure-button pure-button-primary"><%- @getIconmonstrTipsyBlock('save7','','save-icon','data-placement="right" data-content="Some more content here. This is my second tooltip."') %>
+                Download NT&deg;</a>
+                </div>
             </div>
         </div>
+    </div>
+
+    <div class="pure-g-r">
+      <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=92931910">
+      <div class="pure-u-1 center greenlight">
+        <img src="https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/Steam%20Greenlight%20%20%20%20NEOTOKYO%C2%B0.png" alt="neotokyo steam greenlight"/>
+      </div>
+      </a>
     </div>

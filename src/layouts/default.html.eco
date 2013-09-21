@@ -44,7 +44,7 @@
 <body>
 
 <!-- github ribbon start -->
-<a href="https://github.com/MassDistributionMedia/ANP"><img class="github-ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"></a>
+<a href="https://github.com/MassDistributionMedia/ANP"><img class="github-ribbon" src="https://s3.amazonaws.com/github/ribbons/forkme_right_orange_ff7600.png" alt="Fork me on GitHub"></a>
 <!-- github ribbon end -->
 
 <!-- Markup -->
@@ -57,7 +57,6 @@
 				<sup class="abrev">ANP</sup>
 			</a>
 			<ul>
-				<li class="pure-menu-selected"><a href="/">Home</a></li>
 				<li><a href="http://steamcommunity.com/groups/ANPA">Join</a></li>
 				<% for document in @getCollection('pages').toJSON(): %>
 					<li typeof="sioc:Page" about="<%= document.url %>" class="<%= 'active'  if @document.url is document.url %>">
