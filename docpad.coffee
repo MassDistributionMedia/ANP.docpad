@@ -46,9 +46,9 @@ docpadConfig = {
 			scripts: [
 				"http://yui.yahooapis.com/3.12.0/build/yui/yui-min.js"
 				"/scripts/script.js"
+			#	"/scripts/home.js"
 			]
-
-
+			
 
 		# -----------------------------
 		# Helper Functions

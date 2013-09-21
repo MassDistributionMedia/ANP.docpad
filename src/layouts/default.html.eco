@@ -70,9 +70,28 @@
 	<%- @content %>
 
 	<div class="footer pure-u-1">
-		 
+		<div class="fixed-bottom soundcloud sc-tucked">
+			<a class="pure-button soundcloud-btn" href="#">
+				<img class="soundcloud-tab" src="https://googledrive.com/host/0B9LVk4xbDIJTYTA3N2ZmZDQtMzZhMi00ZjhjLWI4OTAtNTA1OWRiZDZmNGM1/logo_black.png" alt="soundcloud black logo tab"/>
+			</a>
+			<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=http%3A%2F%2Fapi.soundcloud.com%2Fplaylists%2F2466746"></iframe>
+		</div>
+		<div> 
+		<a href="http://www.twitch.tv/ActiveNeotokyoPlayers">
+			<img class="twitch" src="https://googledrive.com/host/0B9LVk4xbDIJTSnNKM2tQSEZISDA/GlitchIcon_white.png" alt="Twitch logo"/>
+		</a>
+		<a href="https://github.com/MassDistributionMedia/ANP">
+			<%- @getIconmonstrTipsyBlock('github10','ghIcon','gh-icon') %>
+		</a>
+		<a href="https://soundcloud.com/ed-harrison/sets/neotokyo">
+			<img src="https://googledrive.com/host/0B9LVk4xbDIJTYTA3N2ZmZDQtMzZhMi00ZjhjLWI4OTAtNTA1OWRiZDZmNGM1/logo_big_white.png" alt="soundcloud logo"/>
+		</a>
+		<a href="https://www.facebook.com/activeneotokyoplayers">
+			<%- @getIconmonstrTipsyBlock('facebook5','fbIcon','fb-icon') %>
+		</a>
 		&copy; ANP <%- (new Date()).getFullYear() %> - 
 		last updated at <%= @site.date.toISOString() %>
+		</div>
 	</div>
 </div>
 

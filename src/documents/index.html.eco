@@ -114,7 +114,7 @@ title: 'Home'
                     </h1>
 
                     <h2 class="splash-subhead">
-                        The goal of ANP is to try and get servers filled with active players of Neotokyo&deg;. We noticed a lot of people who enjoy playing NT&deg; find a server list full of empty servers when they're looking for a game. Being a part of this community will give you notification when games are starting or going so we can get servers filled. 
+                        The goal of ANP is to try and get servers filled with active players of <a href="http://www.neotokyohq.com/">neotokyo&deg;</a>. We noticed a lot of people who enjoy playing NT&deg; find a server list full of empty servers when they're looking for a game. Being a part of this community will give you notification when games are starting or going so we can get servers filled. 
                     </h2>
 
                     <p>
@@ -131,7 +131,7 @@ title: 'Home'
                            version="1.0"
                            width="180"
                            height="84"
-                           id="svg2"
+                           id="steamIcon"
                            sodipodi:version="0.32"
                            inkscape:version="0.46"
                            sodipodi:docname="steam_logo.svg"
@@ -202,17 +202,53 @@ title: 'Home'
             <div class="l-box ribbon download-nt">
                 <div class="get-started">
                 <h2>Get started now.</h2> <br/>
-                <a href="http://www.neotokyohq.com/download.html" class="pure-button pure-button-primary"><%- @getIconmonstrTipsyBlock('save7','','save-icon','data-placement="right" data-content="Some more content here. This is my second tooltip."') %>
+                <a href="http://www.neotokyohq.com/download.html" class="pure-button pure-button-primary">
+                  <%- @getIconmonstrTipsyBlock('save7','saveIcon','save-icon') %>
                 Download NT&deg;</a>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="pure-g-r">
-      <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=92931910">
-      <div class="pure-u-1 center greenlight">
+    <div class="pure-g-r greenlight">
+      <div class="pure-u-1 center">
+        <a href="http://steamcommunity.com/sharedfiles/filedetails/?id=92931910">
         <img src="https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/Steam%20Greenlight%20%20%20%20NEOTOKYO%C2%B0.png" alt="neotokyo steam greenlight"/>
+        </a>
       </div>
-      </a>
     </div>
+
+    <div class="pure-g-r">
+      <div id="accordions">
+          <div id="accordion-test-vert-markup" class="accordion-test-vert"></div>
+          <ul id="accordion-test-vert-markup-content" class="yui3-widget-loading">
+              <li>
+                  <div class="my-title-vert vision-vert center"><a href="javascript:void(0);"><h1>ANP 2013 Tournament &raquo;</h1></a></div>
+                  <div class="my-section-vert vision-vert vision-inner center">
+                    Active Neotokyo Players is organizing a NEOTOKYO° tournament this autumn.<br/>
+
+                    The tournament is free to participate and open for all, regardless of player skill.<br/><br/> 
+
+                    <strong>Registrations are now closed!</strong><br/><br/>
+
+                    Official Tournament website: <a href="http://xn--eckyhwa.net/ANP13/main/">http://xn--eckyhwa.net/ANP13/main/</a>
+                  </div>
+              </li>
+              <li>
+                  <div class="my-title-vert mission-vert center"><a href="javascript:void(0);"><h1>LIVE Twitch Stream &raquo;</h1></a></div>
+                  <div class="my-section-vert mission-vert mission-inner center">
+                     <object type="application/x-shockwave-flash" height="378" width="620" id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=activeneotokyoplayers" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" /><param name="flashvars" value="hostname=www.twitch.tv&channel=activeneotokyoplayers&auto_play=true&start_volume=25" /></object>
+                     <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://twitch.tv/chat/embed?channel=activeneotokyoplayers&amp;popout_chat=true" height="500" width="350"></iframe>
+                  </div>
+              </li>
+              <li>
+                  <div class="my-title-vert job-vert center"><a href="javascript:void(0);">
+                      <!-- <span id="careers">.</span> -->
+                      <h1>Tournament Bracket &raquo;</h1></a></div>
+                  <div class="my-section-vert job-vert job-inner center">
+                     <iframe src="http://neotokyo.challonge.com/ANP13/module" width="100%" height="844" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
+                  </div>
+              </li>
+          </ul>
+      </div>
+  </div>
