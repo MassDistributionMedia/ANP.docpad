@@ -11,7 +11,7 @@ title: 'Home'
                     <iframe width="340" height="315" src="//www.youtube.com/embed/bp6I7W10IzM" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="sponsors">
-                <h3> Sponsors </h3>
+                <h3 class="gold"> Gold Sponsors </h3>
                 <!--
                 <img src="https://googledrive.com/host/0B9LVk4xbDIJTQ2FMX0hWV0dPejg/icon_mdm-brazil.png" alt="Mass Distribution Media"/>
                 -->
@@ -102,7 +102,7 @@ title: 'Home'
                 </g>
                 </svg>
                 </a>
-                <sub class="muted">Become a sponsor.</a>
+                <sub class="muted">Become a sponsor.</sub>
                 </div>
             </div>
 
@@ -206,6 +206,10 @@ title: 'Home'
                   <%- @getIconmonstrTipsyBlock('save7','saveIcon','save-icon') %>
                 Download NT&deg;</a>
                 </div>
+                <sub class="nt-install-help">
+                  Want to hand-off the mod setup?
+                  <a href="">Use ANP&deg;</a>
+                </sub>
             </div>
         </div>
     </div>
