@@ -192,6 +192,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6808482', e
 .twitch{
     height: 44px;
 }
+    .twitch-logo{
+        margin: 0 0 -9px 0;
+    }
 .vision-title{
     background: #8e6a69;
 }

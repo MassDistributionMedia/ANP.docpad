@@ -140,7 +140,7 @@ title: 'Home'
           <div id="accordion-test-vert-markup" class="accordion-test-vert"></div>
           <ul id="accordion-test-vert-markup-content" class="yui3-widget-loading">
               <li>
-                  <div class="my-title-vert vision-vert center"><a href="javascript:void(0);"><h1>ANP 2013 Autumn Tournament &raquo;</h1></a></div>
+                  <div class="my-title-vert vision-vert center"><a href="javascript:void(0);"><h1>ANP&deg; 2013 Autumn Tournament &raquo;</h1></a></div>
                   <div class="my-section-vert vision-vert vision-inner center">
                     <iframe width="420" height="315" src="//www.youtube.com/embed/DD1N6aD0d3Q?rel=0" frameborder="0" allowfullscreen></iframe>
                     <iframe width="420" height="315" src="//www.youtube.com/embed/Djwx4L3anas?rel=0" frameborder="0" allowfullscreen></iframe> <br/>
@@ -156,7 +156,7 @@ title: 'Home'
                   </div>
               </li>
               <li>
-                  <div class="my-title-vert mission-vert center"><a href="javascript:void(0);"><h1>LIVE Twitch Stream &raquo;</h1></a></div>
+                  <div class="my-title-vert mission-vert center"><a href="javascript:void(0);"><h1>LIVE _<img class="twitch-logo" src="https://googledrive.com/host/0B9LVk4xbDIJTSnNKM2tQSEZISDA/Twitch_Logo_White_small.png" alt="twitch logo"/>_Stream &raquo;</h1></a></div>
                   <div class="my-section-vert mission-vert mission-inner center">
                      <object type="application/x-shockwave-flash" height="378" width="620" id="live_embed_player_flash" data="http://www.twitch.tv/widgets/live_embed_player.swf?channel=activeneotokyoplayers" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="http://www.twitch.tv/widgets/live_embed_player.swf" /><param name="flashvars" value="hostname=www.twitch.tv&channel=activeneotokyoplayers&auto_play=true&start_volume=25" /></object>
                      <iframe frameborder="0" scrolling="no" id="chat_embed" src="http://twitch.tv/chat/embed?channel=activeneotokyoplayers&amp;popout_chat=true" height="500" width="350"></iframe>
@@ -165,7 +165,7 @@ title: 'Home'
               <li>
                   <div class="my-title-vert job-vert center"><a href="javascript:void(0);">
                       <!-- <span id="careers">.</span> -->
-                      <h1>Tournament Bracket &raquo;</h1></a></div>
+                      <h1>Tournament <span class="muted">_</span> Bracket -{-&raquo;</h1></a></div>
                   <div class="my-section-vert job-vert job-inner center">
                      <iframe src="http://neotokyo.challonge.com/ANP13/module" width="100%" height="844" frameborder="0" scrolling="auto" allowtransparency="true"></iframe>
                   </div>
