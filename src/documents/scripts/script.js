@@ -51,16 +51,6 @@ function(Y)
 		allowMultipleOpen:       true
 	});
 
-	Y.one('.pure-menu').setStyle('opacity', 0.8);
-	Y.one('.pure-menu').on({
-		mouseover : function(){
-			this.setStyle('opacity', 1);
-		},
-		mouseout  : function(){
-			this.setStyle('opacity', 0.8);
-		}
-	});
-
 	Y.on('domready', function()
 	{
 		vm.render('#accordion-test-vert-markup');
