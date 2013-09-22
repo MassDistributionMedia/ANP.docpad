@@ -284,6 +284,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6808482', e
     }
 
 @media screen and (max-width: 960px){
+    .soundcloud{
+        display: none;
+    }
    .logo-text{
         display: none;
    }

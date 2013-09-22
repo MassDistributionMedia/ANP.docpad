@@ -92,8 +92,11 @@
 		<a href="https://www.facebook.com/activeneotokyoplayers">
 			<%- @getIconmonstrTipsyBlock('facebook5','fbIcon','fb-icon') %>
 		</a>
+		<br/>
+		<span>
 		&copy; ANP <%- (new Date()).getFullYear() %> - 
 		last updated at <%= @site.date.toISOString() %>
+		</span>
 		</div>
 	</div>
 </div>

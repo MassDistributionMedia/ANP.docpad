@@ -8,7 +8,7 @@ title: 'Home'
         <div class="pure-g-r">
                 <div class="pure-u-1-3">
                 <div class="l-box splash-image">
-                    <iframe width="340" height="315" src="//www.youtube.com/embed/bp6I7W10IzM" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="343" height="315" src="//www.youtube.com/embed/bp6I7W10IzM" frameborder="0" allowfullscreen></iframe>
                 </div>
                 <div class="sponsors">
                 <h3 class="gold"> Gold Sponsors </h3>
@@ -30,7 +30,7 @@ title: 'Home'
                     </h1>
 
                     <h2 class="splash-subhead">
-                        The goal of ANP is to try and get servers filled with active players of <a href="http://www.neotokyohq.com/">neotokyo&deg;</a>. We noticed a lot of people who enjoy playing NT&deg; find a server list full of empty servers when they're looking for a game. Being a part of this community will give you notification when games are starting or going so we can get servers filled. 
+                        The goal of ANP is to try and get servers filled with active players of <a href="http://www.neotokyohq.com/">neotokyo&deg;</a>. We noticed a lot of people who enjoy playing NT&deg; but find a list of empty servers when they're looking for a game. Being a part of this community will give you Steam notifications when games are starting or going so we can get servers filled. 
                     </h2>
 
                     <p>
@@ -104,9 +104,6 @@ title: 'Home'
                         </svg>
                         <span class="splash-join-text"> Join ANP </span>
                         </a>
-                        <!--
-                        <a href="http://steamcommunity.com/groups/ANPA/discussions/0/864951657965850228/" class="pure-button"> Install Neotokyo&deg; </a>
-                        -->
                     </p>
                 </div>
             </div>
@@ -152,8 +149,9 @@ title: 'Home'
                     The tournament is free to participate and open for all, regardless of player skill.<br/>
                     Official Tournament website: <a href="http://xn--eckyhwa.net/ANP13/main/">http://xn--eckyhwa.net/ANP13/main/</a> <br/><br/>
 
-                    <strong>Registrations are now closed!</strong><br/><br/>
-
+                    <strong>Registrations are now closed!</strong><br/>
+                    <sup>Winter 2013 coming soon...</sup>
+                    <br/><br/>
                   </div>
               </li>
               <li>
