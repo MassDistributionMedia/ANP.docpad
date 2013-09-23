@@ -3,7 +3,14 @@ layout: 'default'
 title: 'Home'
 ---
 
-<!-- Main hero unit for a primary marketing message or call to action -->
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+
     <div class="splash pure-u-1">
         <div class="pure-g-r">
                 <div class="pure-u-1-3">
@@ -12,9 +19,6 @@ title: 'Home'
                 </div>
                 <div class="sponsors">
                 <h3 class="gold"> Gold Sponsors </h3>
-                <!--
-                <img src="https://googledrive.com/host/0B9LVk4xbDIJTQ2FMX0hWV0dPejg/icon_mdm-brazil.png" alt="Mass Distribution Media"/>
-                -->
                 <a href="http://massdistributionmedia.com/">
                   <img class="sponsors-logo" src="https://googledrive.com/host/0BxIxK0gS2WsvNzlrdUlHOGFVcTA/logo-circle_MDM_transparent.png" alt="MDM circle icon logo"/>
                 </a>

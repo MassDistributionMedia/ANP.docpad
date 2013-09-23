@@ -1,0 +1,48 @@
+{
+  "name": "docpad-plugin-scrollmore",
+  "version": "2.0.0",
+  "description": "",
+  "keywords": [
+    "docpad",
+    "docpad-plugin"
+  ],
+  "author": {
+    "name": "MDM Inc",
+    "email": "sales@mdm.cc",
+    "url": "http://mdm.cm"
+  },
+  "maintainers": [
+    {
+      "name": "Michael Mooring",
+      "email": "mike@mdm.cm",
+      "url": "http://mdm.cm"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Michael Mooring",
+      "email": "mike@mdm.cm",
+      "url": "http://mdm.cm"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/mikeumus/docpad-plugin-scrollmore.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mikeumus/docpad-plugin-scrollmore.git"
+  },
+  "engines": {
+    "node": ">=0.8.x",
+    "docpad": ">=6.x"
+  },
+  "dependencies": {
+    "yui": ">=3.11.0"
+  },
+  "devDependencies": {},
+  "main": "./scrollmore.plugin.coffee",
+  "readmeFilename": "readme.md",
+  "_id": "docpad-plugin-scrollmore@2.0.0",
+  "_from": "docpad-plugin-scrollmore@2",
+  "readme": ""
+}

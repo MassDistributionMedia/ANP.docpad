@@ -181,7 +181,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6808482', e
 .save-icon{
     width: 29px;
     height: 29px;
-    fill:#fafafa;
+    fill: #fafafa;
     margin:-9px 0 -9px 0;
 }
 .gh-icon, .fb-icon, .yt-icon{
