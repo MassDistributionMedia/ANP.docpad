@@ -1,6 +1,7 @@
 ---
 layout: 'default'
 title: 'Home'
+script: 'scripts/home.js'
 ---
 
     <!--[if gte IE 9]>

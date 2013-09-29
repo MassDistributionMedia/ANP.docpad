@@ -32,6 +32,13 @@
 	<!--[if lt IE 9]>
 		<script async src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+	<!--[if gte IE 9]>
+	  <style type="text/css">
+	    .gradient {
+	       filter: none;
+	    }
+	  </style>
+	<![endif]-->
 
 	<!-- Styles -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
@@ -48,7 +55,7 @@
 <!-- github ribbon end -->
 
 <!-- Markup -->
-<div class="content pure-g-r grey-gradient">
+<div id="content" class="content pure-g-r .grey-gradient">
 	<div class="header pure-u-1">
 		<div class="pure-menu pure-menu-open pure-menu-fixed pure-menu-horizontal">
 			<a class="pure-menu-heading" href="/">
@@ -103,5 +110,6 @@
 
 	<!-- Scripts -->
 	<%- @getBlock('scripts').add(@site.scripts).toHTML() %>
+	<%- @getBlock('scripts').add(@document.script).toHTML() %>
 </body>
 </html>

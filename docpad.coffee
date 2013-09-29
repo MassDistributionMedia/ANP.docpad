@@ -2,6 +2,11 @@
 # It is simply a CoffeeScript Object which is parsed by CSON
 docpadConfig = {
 
+	# Package Path
+    # The project's package.json path
+    # If it is a relative path, it will have the resolved `rootPath` prepended to it
+    #packagePath: 'package.json'  # default
+
 	# =================================
 	# Template Data
 	# These are variables that will be accessible via our templates
@@ -113,6 +118,12 @@ docpadConfig = {
 					res.redirect(newUrl+req.url, 301)
 				else
 					next()
+
+	# Enabled Plugins
+    enabledPlugins:
+        scrollmore: false
+        jsonblock:  false
+        soundcloudblock: false
 }
 
 
