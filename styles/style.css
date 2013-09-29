@@ -1,0 +1,336 @@
+body {
+    color:#fff;
+    margin: 0 auto;
+    line-height: 1.7em;
+    letter-spacing: 0px !important;
+    background: #000 url(https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/nt_logo.gif) no-repeat 777px 366px;
+}
+
+a{
+    text-decoration: none;
+    color: #fafafa /* rgba(255, 165, 0, 0.78)*/;
+}
+
+::-webkit-scrollbar{width:17px;background:rgba(102,51,0,0.2);}
+::-webkit-scrollbar-track{-webkit-box-shadow:inset 0 0 6px rgba(77,77,77,0.77);}
+::-webkit-scrollbar-thumb{background:#333;-webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.2);}
+
+.my-section-vert{
+    letter-spacing: 0px !important;
+}
+
+.logo{
+    width: 77px;
+    clear: none;
+    float: left;
+}
+
+.gold{
+    color: gold;
+}
+
+.nt-install-help{
+    float: right;
+    margin: 116px 0 0 0;
+}
+
+.logo-text{
+    clear: none;
+    float: left;
+    color: #fff;
+    padding: 10px 0 0 13px;
+}
+
+.l-box {
+    padding: 3em 1em 0;
+}
+    .l-box iframe{
+        margin-top: 1px;
+    }
+
+.header {
+    margin: 0 0;
+}
+
+    .header .pure-menu {
+        color: #fff;
+        padding: 0.5em;
+        margin: -13px 0 0 0;
+        border: 0 !important;
+        background: /* #363A36*/ url(https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/onion-arches-down.png) repeat-x;
+    }
+        .header .pure-menu a{
+            color:rgba(255,255,255,0.9);
+        }
+        .header .pure-menu.pure-menu-horizontal>ul{
+            margin: 0 0 0 88px;
+        }
+        .header .pure-menu li a{
+            padding: 5px 30px;
+        }
+        .header .pure-menu li a:hover,
+        .header .pure-menu li a:focus {
+            border: none;
+            background: none;
+        }
+
+body .primary-button {
+    color: #fff;
+    background: #02a6eb;
+}
+
+.fixed-bottom{
+    left:0;
+    bottom: 0;
+    position: fixed;
+}
+
+.soundcloud{
+    width: 100%;
+}
+    .soundcloud-tab{
+        float: right;
+    }
+    .soundcloud-btn{
+        float: right;
+        margin: 0 5px -5px 0;
+    }
+    .sc-tucked{
+        bottom:-450px;
+    }
+    .sc-shown{
+        bottom: -13px;
+    }
+
+.splash {
+    margin: 2em auto 0;
+    padding: 3em 0.5em;
+    background: rgba(10, 5, 0, 0.25);
+}
+    .splash .splash-head {
+        margin: 0em 0;
+        color: #BDBDBD;
+        line-height: 1.2em;
+    }
+    .splash .splash-subhead {
+        color: #999;
+        width: 636px;
+        padding: 2px;
+        font-weight: 300;
+        line-height: 1.4em;
+    }
+    .splash .splash-subhead a{
+        color: #BEBEBE;
+    }
+    .splash .primary-button {
+        font-size: 150%;
+    }
+    .splash .splash-text{
+        width: 673px;
+    }
+    .splash-img-bg{
+        opacity: 0.7;
+        z-index: -11;
+        position: absolute;
+    }   
+    .splash-join{
+        width: 180px;
+        color: #fff;
+        height: 94px;
+        margin: 0 133px 0 13px;
+    }
+        .splash-join:hover{
+            color: #333;
+        }
+    .splash-join-text{
+        bottom: 0;
+        float: left;
+        margin: -23px 0;
+    }
+
+.page{
+    margin: 145px 29px 0;
+}
+
+.github-ribbon{
+    top: 0; 
+    right: 0; 
+    border: 0;
+    position: absolute;
+}
+    .github-ribbon:hover{
+        z-index:11;
+    }
+
+.grey-gradient{
+    /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzgwODQ4MiIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMxNDE0MTQiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  rgba(128,132,130,0.65) 1%, rgba(20,20,20,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(128,132,130,0.65)), color-stop(100%,rgba(20,20,20,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  rgba(128,132,130,0.65) 1%,rgba(20,20,20,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  rgba(128,132,130,0.65) 1%,rgba(20,20,20,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  rgba(128,132,130,0.65) 1%,rgba(20,20,20,0) 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  rgba(128,132,130,0.65) 1%,rgba(20,20,20,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6808482', endColorstr='#00141414',GradientType=0 ); /* IE6-8 */
+}
+.abrev{
+    clear: both;
+    float: left;
+    color: #fff;
+}
+.save-icon{
+    width: 29px;
+    height: 29px;
+    fill: #fafafa;
+    margin:-9px 0 -9px 0;
+}
+.gh-icon, .fb-icon, .yt-icon{
+    fill:#fafafa;
+    width: 44px;
+    height: 44px;
+}
+.twitch{
+    height: 44px;
+}
+    .twitch-logo{
+        margin: 0 0 -9px 0;
+    }
+.vision-title{
+    background: #8e6a69;
+}
+    .vision-inner{
+        background: #8e6a69 url(https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/jinrai-recon-watercolor.png) no-repeat 777px 0;
+    }
+.mission-title{
+    background: #612f2d url(https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/neotokyo.jpg) repeat-x;
+}
+
+.job-title{
+    background: #541512;
+}
+
+.content{
+    width: 1097px;
+    margin: auto;
+}
+    .content .content-subhead {
+        margin: 0;
+        color: #999;
+        padding-bottom: 0.3em;
+        display: inline-block;
+        text-transform: uppercase;
+        border-bottom: 2px solid #eee;
+    }
+
+    .content .content-ribbon {
+        margin: 3em;
+        border-bottom: 1px solid #eee;
+    }
+.muted{
+    color:grey;
+}
+.sponsors{
+    opacity: 0.6;
+    margin: -23px 0 0 23px;
+}
+    .sponsors:hover{
+        opacity: 1;
+    }
+    .sponsors-logo{
+        width: 23%;
+        height: 23%;
+    }
+
+.ribbon {
+    text-align: center;
+    padding: 2em;
+    color: #999;
+}
+    .ribbon h2 {
+        display: inline;
+        font-weight: normal;
+    }
+
+.pure-button-orange {
+    background: rgb(223, 117, 20); /* this is an orange */
+}
+    .pure-button-orange:hover{
+        color: #fff;
+    }
+
+.get-started{
+    margin: 259px 0 0 8px;
+}
+.download-nt{
+    background: url(https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/activeneotokyoplayers-profile_banner-0e2eb717c6c1545c-480.jpeg) no-repeat -107px 0;
+    height: 417px;
+}
+.center{
+    text-align: center;
+}
+.greenlight{
+    padding:177px 0;
+    background: #3f3e3d url(https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/a2181643219_10.jpg) no-repeat;
+}
+.footer {
+    color: #666;
+    padding: 1em;
+    font-size: 80%;
+    background: #111;
+    text-align: center;
+}
+    .footer img, .footer svg{
+        opacity: 0.5;
+    }
+    .footer img:hover, .footer svg:hover{
+        opacity: 0.8;
+    }
+
+@media screen and (max-width: 960px){
+    .soundcloud{
+        display: none;
+    }
+   .logo-text{
+        display: none;
+   }
+   .splash .splash-text{
+        width: inherit !important;
+   }
+        .splash .splash-subhead{
+            width: inherit !important; 
+        }
+   .content{
+        width: inherit !important;
+        margin-left: -18px !important
+   }
+   .sponsors{
+        display:none; 
+   }
+   .splash {
+        margin: 0 auto 0;
+        padding: 0.5em 0.5em;
+    }
+   .header .pure-menu{
+        margin-top: -33px !important;
+        background: url(https://googledrive.com/host/0B9LVk4xbDIJTdU5WMktoanpxVHc/onion-arches-down.png) repeat-x 0 -7px;
+   }
+       .header .pure-menu li a{
+            padding: 5px 13px !important;
+       }
+       .header .pure-menu.pure-menu-horizontal>ul{
+            margin: 27px 0 0 8px !important;
+        }
+   .github-ribbon{
+        display: none;
+   }
+   .splash-join{
+        float: right;
+   }
+   .greenlight{
+        display: none;
+   }
+   .logo{
+        width: 33px !important;
+        margin: 19px 0px 0px !important;
+   }
+}
